@@ -11,13 +11,52 @@
         <img src="./images/Logo.png" alt="Logo" class="logo">
         <nav class="navbar">
             <ul class="navbar-list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="hero">Inicio</a></li>
+                <li><a href="servicios">Servicios</a></li>
                 <li><a href="#">Indumentaria</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-            <img src="./images/Carrito.png" alt="Carrito" class="cart-icon">
+            <span class="icon-cart">
+                <ion-icon name="cart-outline"></ion-icon>
+            </span>
         </nav>
-    </header>    
+    </header> 
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <h1>Búfalo Weightlifting Program</h1>
+                <p>Búfalo Weightlifting Program está formado por un grupo de Coachs de Levantamiento Olímpico de Pesas y Preparadores Físicos orientados en potenciar al máximo nivel cada uno de sus atletas. Desde la preparación física de atletas de deportes como Rugby, Basket, Fútbol, Hockey, Crossfit hasta la Halterofilia, incluyendo un programa específico y personalizado para cada individuo enfocado en sus objetivos y metas.<br><b>¡Planifiquemos juntos los pasos hasta tu nueva meta!</b></p>
+            </div>
+            <div class="hero-card">
+                <img src="images/Weightlifting.JPG" alt="Alumno compitiendo">
+                <div class="hero-card-info">
+                    <h3>Torneo Metropolitano</h3>
+                    <p>Nuestro alumno Brandon Szlago compitió en el último Regional Metropolitano de Buenos Aires, que fue disputado en el Club Únion (Ciudadela), realizando 236 kilos de Total Olímpico. </p>
+                </div>
+            </div>
+        </section>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-card-container">
+                <div class="weightlifting">
+                    <span><ion-icon name="barbell-outline" class="icon-service"></ion-icon></span>
+                    <h3>Weightlifting</h3>
+                    <p>Planificaciones específicas de Levantamiento Olímpico de Pesas para todas las edades y en todos los niveles: inical, intermedio, avanzado, elite.</p>
+                </div>
+                <div class="weightlifting">
+                    <span><ion-icon name="laptop-outline" class="icon-service"></ion-icon></span>
+                    <h3>Soporte on line</h3>
+                    <p>Realizamos correciones y brindamos soporte técnico a todos aquellos que no cuenten con nuestras planificaciones y quieran saber sus errores mecánicos y como corregirlos.</p>
+                </div>
+                <div class="weightlifting">
+                    <span><ion-icon name="cellular-outline" class="icon-service"></ion-icon></span>
+                    <h3>Preparación Física</h3>
+                    <p>Ayudamos a potenciar tu nivel como atleta en el deporte que realices a través de planificaciones que hacen que progreses en tu velocidad, potencia y fuerza.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>   
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

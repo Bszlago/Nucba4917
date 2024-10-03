@@ -32,6 +32,11 @@ header{
     z-index: 99;
 }
 
+.btn-navbar{
+    display: none;
+    border: none;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -79,6 +84,15 @@ header{
     transform: scaleX(1);
 }
 
+.icon-toggle-menu {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
 .icon-cart {
     position: relative;
     top: 5px;
@@ -102,7 +116,7 @@ main {
 
 #hero {
     max-width: 1200px;
-    margin-top: 65px;
+    margin-top: 70px;
     padding: 70px 0;
     display: flex;
     align-items: flex-start;
@@ -264,6 +278,7 @@ main {
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #contacto { 
@@ -340,4 +355,28 @@ footer p {
 
 footer span {
     font-weight: 200;
+}
+
+@media (max-width: 992px) {
+    .hero-info {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hero-info h1 {
+        display: block;
+        width: 100%;
+    }
+
+    .hero-info p {
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        padding: 40px;
+    }
+
+    .hero-card {
+        display: none;
+    }
 }
